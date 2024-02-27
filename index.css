@@ -1,0 +1,100 @@
+body {
+    background: white;
+}
+
+#title{
+        background-color: #F1F3FF;;
+
+}
+
+/* .navbar {
+    display: none;
+} */
+
+@media (max-width: 360px) {
+.nav-item {
+    display: none;
+}
+
+/* .navbar {
+    
+} */
+}
+
+.font {
+    font-family: Helvetica;
+}
+
+.font-non-bold {
+    font-size: 14px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1186px;
+    height: 326px;
+    background-color: #0D28A6;
+}
+
+.rectangle1 {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.rectangle2 {
+    width: 100px;
+    height: 34px;
+    background-color: #0D28A6;
+}
+
+.nav-link {
+    color: black;
+}
+
+.font-bold {
+    font-size: 16px;
+}
+
+.border {
+    width: 268px;
+    height:196px;
+}
+
+
+.button-primary-outline {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    border: 1px solid #933393;
+    border-radius: 8px;
+    align-items: center;
+    padding: 17px 16px;
+    display: flex;
+}
+
+.link-block-20 {
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    text-decoration: none;
+    display: flex;
+}
+
+.carousel {
+    background: #F1F3FF;
+    width: 832px;
+    height: 270px;
+    margin: auto;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("./assets/img/Vector.svg");
+}
+
+.carousel-control-next-icon {
+    background-image: url("./assets/img/Vector-kanan.svg");
+}
